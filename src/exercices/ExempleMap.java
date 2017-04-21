@@ -30,15 +30,15 @@ public class ExempleMap {
         //1.itérer sur toutes les clé et affiche chaque clé et sa définition
         
         Set <String> cles= map.keySet();
-        for (String cle:cles){
+        for (String cle:cles){ //ou directement et sans variables intermédiares : for (String cle:map.keySet
            System.out.println(cle + ":" +map.get(cle));
             System.out.println("******");
            
     }
-        //supprimer isotérique
+        //2.supprimer isotérique
         map.remove("ésotérique");
         
-        //affichage du map
+        //3..0affichage du map
         System.out.println(map);
         System.out.println("******");
     }
