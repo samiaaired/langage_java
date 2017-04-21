@@ -6,7 +6,7 @@
 package exercices;
 
 /**
- *
+ * exercices sur tableau à deux dimensions avec la fonction random
  * @author formation
  */
 public class tableau_random {
