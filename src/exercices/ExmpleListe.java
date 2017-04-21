@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author formation
  */
-public class Liste {
+public class ExmpleListe {
 
     public static void main(String[] args) {
         //1.création de la liste A et ajouter a,b,c
