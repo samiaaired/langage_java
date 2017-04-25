@@ -15,11 +15,12 @@ public class Employe extends Personne{
     
     //Constructur 
 
-  /*  public Employe(double salaire, String nom, String prenom) {
+   public Employe( String nom, String prenom, double salaire) {
         super(nom, prenom);
         this.salaire = salaire;
-    }*/
+    }
 
+    
     @Override
     public String toString() {
         return "Employe{" + super.toString()+"salaire=" + this.salaire + '}';

@@ -6,6 +6,7 @@
 package exercices.test;
 
 import exercices.objet.Employe;
+import exercices.objet.Responsable;
 import java.util.LinkedHashSet;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -16,8 +17,8 @@ import static org.junit.Assert.*;
  */
 public class EmployeTest {
     
-    @Test
-    public void testEmploye(){
+    //@Test
+/*    public void testEmploye(){
         
        Employe emp1= new Employe() ;
        Employe emp2= new Employe();
@@ -36,17 +37,21 @@ public class EmployeTest {
         
         
        
-         LinkedHashSet <Employe> employes= new LinkedHashSet<>();
+        /* LinkedHashSet <Employe> employes= new LinkedHashSet<>();
          employes.add(emp1);
          employes.add(emp2);
-         System.out.println(employes);
+         System.out.println(employes);*/
 
-        
-    }
+       //  }
+   // @Test
+       /* public void testAjoutResponsableToString(){
+            //Création responsable 
+            Responsable resp= new Responsable();
+            resp.setNom("Digna");
+            resp.setPrenom("Thomas");
+            resp.setSalaire(5);
+            resp.getSetEmploye().add( new Employe("nom1", "pre1", 2) );
+            resp.getSetEmploye().add( new Employe("nom2", "pre2", 3) );
+        }*/
+        }
 
-
-
-
-
-
-}

@@ -14,9 +14,18 @@ import java.util.LinkedHashSet;
 public class Responsable extends Employe {
    private  LinkedHashSet <Employe> setEmploye= new LinkedHashSet<>();
 
+    public Responsable(String nom, String prenom, double salaire) {
+        super(nom, prenom, salaire);
+    }
+
+   
+
     @Override
     public String toString() {
-        return "Responsable{"+ super.toString() + "setEmploye=" + setEmploye + '}';
+        //return "Responsable{"+ super.toString() + "Employe=" +employes+ '}';
+        return String.format ("Responsable: %s Liste de s employés: %s",
+        super.toString(),
+          this.setEmploye    );    
     }
 
     public LinkedHashSet<Employe> getSetEmploye() {
